@@ -1,6 +1,12 @@
 #Body{
     margin: 0 auto;
     padding: 0 5px 10px 5px;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.wrappage{
+    /* width: 1362px; */
 }
 
 .header-container{
@@ -26,6 +32,7 @@ display: flex;
 .header-content .logo-content {
     width: auto;
     float: left;
+    margin:  24px 0px;
 }
 
 .header-content .logo-content img{

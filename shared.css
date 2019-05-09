@@ -19,3 +19,8 @@ body{
     min-width: 1015px;
     max-width: 1200px;
 }
+
+.sz1280 {
+    min-width: 1215px;
+    max-width: 1460px;
+}
