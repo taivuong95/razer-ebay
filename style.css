@@ -413,6 +413,7 @@ table {
     }
     .main-tabs .tab + label{
         width: 100%;
+        text-align: center;
     }
     
 }
