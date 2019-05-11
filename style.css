@@ -316,7 +316,7 @@ table {
 .main-tabs input:checked + label {
     color: #000;
     background: #fff;
-    border-right: 1px solid #e1e1e1;
+    border: 1px solid #e1e1e1;
 }
 
 .main-tabs label[for="tab1"] {
@@ -334,6 +334,7 @@ table {
     cursor: pointer;
     position: relative;
     margin: 0 0 0 0;
+    background:#e8e8e8
 }
 
 .main-tabs label span {
@@ -410,6 +411,10 @@ table {
     .slider .grid-item ~ .grid-content .img-details img{
         margin-left: 60px;
     }
+    .main-tabs .tab + label{
+        width: 100%;
+    }
+    
 }
 
 
